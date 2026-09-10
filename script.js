@@ -78,6 +78,7 @@ function showUsers(user){
 // show initial users
 showUsers(users);
 
+// show searched users
 let inp = document.querySelector(".inp");
 
 inp.addEventListener("input",function(){
@@ -99,4 +100,3 @@ inp.addEventListener("input",function(){
         document.querySelector(".cards").appendChild(h3);
     }
 });
-    
